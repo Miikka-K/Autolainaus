@@ -1,3 +1,6 @@
+"""
+A module to connect to a PostgreSQL database and do basic CRUD-operations (Create, Read, Update and Delete)
+"""
 # MODUULI POSTGRESQL TIETOKANTAPALVELIMEN KÄYTTÄMISEEN
 # ====================================================
 
@@ -14,7 +17,7 @@ import psycopg2
 # ------
 
 class DbConnection():
-    """A class to crate PostgreSQL Database connections and various data operations"""
+    """A class to create PostgreSQL Database connections and various data operations"""
     
     # Konstruktori
     def __init__(self, settings: dict):
